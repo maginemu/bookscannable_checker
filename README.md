@@ -2,14 +2,13 @@ bookscannable_checker
 =====================
 
 # Overview
-A chrome extension to check whether a book is allowed to be scanned with Bookscan
 
 Bookscannable checker indicates wheter a book is allowed to be scanned,  
 on detail-page of a book on amazon.co.jp.
 
 ![](https://raw2.github.com/maginemu/bookscannable_checker/master/resources/Bookscannable_Checker_SS_02.png)
 
-Built project on Chrome web store:  
+## Available on Chrome web store
 [Bookscannable Checker for Amazon JP](https://chrome.google.com/webstore/detail/bookscannable-checker-for/bmcdaifflgfigigjaoojiiobofjfjcip)
 
 
