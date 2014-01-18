@@ -1,0 +1,20 @@
+{
+    "name": "Bookscannable Checker for Amazon JP web",
+    "version": "0.5.1",
+    "manifest_version": 2,
+    "description": "Check if books you search on amazon.co.jp are scan-able with bookscan service.",
+    "icons": {
+        "16": "bookscannable_checker_icon_16_v_0_5_1.png",
+        "48": "bookscannable_checker_icon_48_v_0_5_1.png",
+        "128": "bookscannable_checker_icon_128_v_0_5_1.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://www.amazon.co.jp/*"],
+            "js": ["jquery-1.9.1.min.js", "main.js"]
+        }
+    ],
+    "permissions": [
+        "http://publisher.bookscan.co.jp/"
+    ]
+}
